@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7806706927198E2700265805 /* testingGorWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 7806706827198E2700265805 /* testingGorWork.m */; };
 		788BB4762715A5D6002B91B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 788BB4752715A5D6002B91B9 /* AppDelegate.m */; };
 		788BB4792715A5D6002B91B9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 788BB4782715A5D6002B91B9 /* SceneDelegate.m */; };
 		788BB47C2715A5D6002B91B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 788BB47B2715A5D6002B91B9 /* ViewController.m */; };
@@ -17,6 +18,13 @@
 		788BB4912715A5DA002B91B9 /* Pirate_Adventure_GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 788BB4902715A5DA002B91B9 /* Pirate_Adventure_GameTests.m */; };
 		788BB49B2715A5DA002B91B9 /* Pirate_Adventure_GameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 788BB49A2715A5DA002B91B9 /* Pirate_Adventure_GameUITests.m */; };
 		788BB49D2715A5DA002B91B9 /* Pirate_Adventure_GameUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 788BB49C2715A5DA002B91B9 /* Pirate_Adventure_GameUITestsLaunchTests.m */; };
+		788BB4AB2715B122002B91B9 /* Weapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 788BB4AA2715B122002B91B9 /* Weapon.m */; };
+		788BB4AF2715B255002B91B9 /* Armor.m in Sources */ = {isa = PBXBuildFile; fileRef = 788BB4AE2715B255002B91B9 /* Armor.m */; };
+		788BB4B22715B2F0002B91B9 /* Boss.m in Sources */ = {isa = PBXBuildFile; fileRef = 788BB4B12715B2F0002B91B9 /* Boss.m */; };
+		788BB4B52715B347002B91B9 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 788BB4B42715B347002B91B9 /* Character.m */; };
+		788BB4B82715B41F002B91B9 /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = 788BB4B72715B41F002B91B9 /* Tile.m */; };
+		788BB4BC2715B8B0002B91B9 /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 788BB4BB2715B8B0002B91B9 /* Factory.m */; };
+		788BB4C02715D109002B91B9 /* GameBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 788BB4BF2715D109002B91B9 /* GameBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7806706727198E2700265805 /* testingGorWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testingGorWork.h; sourceTree = "<group>"; };
+		7806706827198E2700265805 /* testingGorWork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testingGorWork.m; sourceTree = "<group>"; };
 		788BB4712715A5D6002B91B9 /* Pirate Adventure Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pirate Adventure Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		788BB4742715A5D6002B91B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		788BB4752715A5D6002B91B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +64,20 @@
 		788BB4962715A5DA002B91B9 /* Pirate Adventure GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pirate Adventure GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		788BB49A2715A5DA002B91B9 /* Pirate_Adventure_GameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pirate_Adventure_GameUITests.m; sourceTree = "<group>"; };
 		788BB49C2715A5DA002B91B9 /* Pirate_Adventure_GameUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pirate_Adventure_GameUITestsLaunchTests.m; sourceTree = "<group>"; };
+		788BB4A92715B122002B91B9 /* Weapon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Weapon.h; sourceTree = "<group>"; };
+		788BB4AA2715B122002B91B9 /* Weapon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Weapon.m; sourceTree = "<group>"; };
+		788BB4AD2715B255002B91B9 /* Armor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Armor.h; sourceTree = "<group>"; };
+		788BB4AE2715B255002B91B9 /* Armor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Armor.m; sourceTree = "<group>"; };
+		788BB4B02715B2F0002B91B9 /* Boss.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Boss.h; sourceTree = "<group>"; };
+		788BB4B12715B2F0002B91B9 /* Boss.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Boss.m; sourceTree = "<group>"; };
+		788BB4B32715B347002B91B9 /* Character.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		788BB4B42715B347002B91B9 /* Character.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
+		788BB4B62715B41F002B91B9 /* Tile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
+		788BB4B72715B41F002B91B9 /* Tile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
+		788BB4BA2715B8B0002B91B9 /* Factory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
+		788BB4BB2715B8B0002B91B9 /* Factory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
+		788BB4BE2715D109002B91B9 /* GameBrain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameBrain.h; sourceTree = "<group>"; };
+		788BB4BF2715D109002B91B9 /* GameBrain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +128,9 @@
 		788BB4732715A5D6002B91B9 /* Pirate Adventure Game */ = {
 			isa = PBXGroup;
 			children = (
+				788BB4BD2715D0FA002B91B9 /* Brain */,
+				788BB4B92715B89F002B91B9 /* Factory */,
+				788BB4AC2715B12B002B91B9 /* Model */,
 				788BB4742715A5D6002B91B9 /* AppDelegate.h */,
 				788BB4752715A5D6002B91B9 /* AppDelegate.m */,
 				788BB4772715A5D6002B91B9 /* SceneDelegate.h */,
@@ -134,6 +161,43 @@
 				788BB49C2715A5DA002B91B9 /* Pirate_Adventure_GameUITestsLaunchTests.m */,
 			);
 			path = "Pirate Adventure GameUITests";
+			sourceTree = "<group>";
+		};
+		788BB4AC2715B12B002B91B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				788BB4A92715B122002B91B9 /* Weapon.h */,
+				788BB4AA2715B122002B91B9 /* Weapon.m */,
+				788BB4AD2715B255002B91B9 /* Armor.h */,
+				788BB4AE2715B255002B91B9 /* Armor.m */,
+				788BB4B02715B2F0002B91B9 /* Boss.h */,
+				788BB4B12715B2F0002B91B9 /* Boss.m */,
+				788BB4B32715B347002B91B9 /* Character.h */,
+				788BB4B42715B347002B91B9 /* Character.m */,
+				788BB4B62715B41F002B91B9 /* Tile.h */,
+				788BB4B72715B41F002B91B9 /* Tile.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		788BB4B92715B89F002B91B9 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				788BB4BA2715B8B0002B91B9 /* Factory.h */,
+				788BB4BB2715B8B0002B91B9 /* Factory.m */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		788BB4BD2715D0FA002B91B9 /* Brain */ = {
+			isa = PBXGroup;
+			children = (
+				788BB4BE2715D109002B91B9 /* GameBrain.h */,
+				788BB4BF2715D109002B91B9 /* GameBrain.m */,
+				7806706727198E2700265805 /* testingGorWork.h */,
+				7806706827198E2700265805 /* testingGorWork.m */,
+			);
+			path = Brain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,9 +330,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				788BB4BC2715B8B0002B91B9 /* Factory.m in Sources */,
 				788BB47C2715A5D6002B91B9 /* ViewController.m in Sources */,
+				788BB4B82715B41F002B91B9 /* Tile.m in Sources */,
 				788BB4762715A5D6002B91B9 /* AppDelegate.m in Sources */,
+				7806706927198E2700265805 /* testingGorWork.m in Sources */,
+				788BB4AB2715B122002B91B9 /* Weapon.m in Sources */,
+				788BB4B52715B347002B91B9 /* Character.m in Sources */,
+				788BB4AF2715B255002B91B9 /* Armor.m in Sources */,
+				788BB4C02715D109002B91B9 /* GameBrain.m in Sources */,
 				788BB4872715A5DA002B91B9 /* main.m in Sources */,
+				788BB4B22715B2F0002B91B9 /* Boss.m in Sources */,
 				788BB4792715A5D6002B91B9 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
